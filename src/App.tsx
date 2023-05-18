@@ -14,7 +14,7 @@ function App() {
       </p>
       <div className="social-links">
         <a
-          href="http://instagram.com/michiganwhiteout"
+          href="http://facebook.com/michiganwhiteoutmedia"
           target="_blank"
           rel="noreferrer"
         >
