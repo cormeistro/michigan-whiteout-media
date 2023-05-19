@@ -1,6 +1,6 @@
 import "./styles/App.css";
 import Logo from "./assets/MWM.svg";
-import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 
 function App() {
   return (
@@ -29,6 +29,15 @@ function App() {
         >
           <div className="icon">
             <BsInstagram />
+          </div>
+        </a>
+        <a
+          href="https://twitter.com/whiteoutmedia"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="icon">
+            <BsTwitter />
           </div>
         </a>
       </div>
