@@ -1,0 +1,90 @@
+/* MOBILE SCREENS */
+@media screen and (max-width: 800px) {
+  .heroSection {
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+  .left h1 {
+    line-height: 0.85em;
+  }
+  .slogan {
+    gap: 25px;
+  }
+}
+
+/* MEDIUM SCREENS */
+@media screen and (max-width: 1600px) and (min-width: 800px) {
+  .heroSection {
+    flex-direction: column;
+  }
+  .left h1 {
+    line-height: 0.85em;
+  }
+  .slogan {
+    gap: 25px;
+  }
+}
+
+/* BIG SCREENS */
+@media screen and (min-width: 1600px) {
+  .left {
+    min-width: 800px;
+  }
+}
+
+.heroSection {
+  align-items: center;
+  display: flex;
+  gap: 50px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.left h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.left h1 span {
+  color: var(--red);
+}
+
+.left h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.left p {
+  max-width: 800px;
+}
+
+.right img {
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  font-size: 26px;
+  gap: 25px;
+}
+
+.row a {
+  color: unset;
+  transition: color 250ms;
+}
+
+.row a:hover {
+  color: var(--red);
+}
+
+.slogan {
+  display: flex;
+  flex-direction: column;
+}

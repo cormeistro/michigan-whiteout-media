@@ -1,0 +1,12 @@
+:root {
+  --gray-darkest: #222222;
+  --gray-dark: #333333;
+  --gray-bright: #eeeeee;
+
+  --red: #f74a4a;
+}
+
+body {
+  background-color: var(--gray-dark);
+  color: var(--gray-bright);
+}
