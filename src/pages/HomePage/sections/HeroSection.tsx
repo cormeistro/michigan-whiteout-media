@@ -2,7 +2,11 @@ import styles from "./HeroSection.module.css";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 import ImageCollage from "../assets/background.jpg";
 
-const HeroSection = () => {
+interface Props {
+  showContact: () => void;
+}
+
+const HeroSection = ({ showContact }: Props) => {
   return (
     <section className={`section-standard-padding ${styles.heroSection}`}>
       <div className={styles.left}>
@@ -22,7 +26,9 @@ const HeroSection = () => {
           feel.
         </p>
         <div className={styles.row}>
-          <button className="button-solid-red">Contact Us</button>
+          <button className="button-solid-red" onClick={showContact}>
+            Contact Us
+          </button>
           <a
             href="http://facebook.com/michiganwhiteoutmedia"
             target="_blank"

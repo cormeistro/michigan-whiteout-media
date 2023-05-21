@@ -3,12 +3,21 @@ import styles from "./TopBar.module.css";
 import Logo from "./assets/MWM.svg";
 import { useState } from "react";
 
-const TopBar = () => {
+interface Props {
+  showContact: () => void;
+}
+
+const TopBar = ({ showContact }: Props) => {
   const [menuVisible, setMenuVisible] = useState(false);
 
   const closeMenu = () => {
     setMenuVisible(false);
   };
+
+  function handleContact() {
+    setMenuVisible(false);
+    showContact();
+  }
 
   function getNavItems() {
     return (
@@ -28,7 +37,9 @@ const TopBar = () => {
         <a onClick={closeMenu} href="">
           About
         </a>
-        <button className="button-outline-red">Contact Us</button>
+        <button className="button-outline-red" onClick={handleContact}>
+          Contact Us
+        </button>
       </>
     );
   }

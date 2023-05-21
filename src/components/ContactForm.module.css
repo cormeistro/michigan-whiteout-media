@@ -1,0 +1,55 @@
+.contactForm {
+  align-items: center;
+  background: rgba(247, 74, 74, 0.5);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 11;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 50px;
+  position: fixed;
+  right: 15px;
+  top: 15px;
+}
+
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contactForm form input,
+.contactForm form textarea {
+  border: none;
+  border-radius: 4px;
+  font-family: unset;
+  font-size: unset;
+  height: 40px;
+  padding: 10px 15px;
+  resize: none;
+  width: 100%;
+}
+
+.contactForm form textarea {
+  height: 150px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  min-width: 300px;
+}
+
+.wrapper h1 {
+  align-self: center;
+}

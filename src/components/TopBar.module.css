@@ -24,7 +24,7 @@
 }
 
 .mobileMenu .icon {
-  z-index: 99;
+  z-index: 10;
 }
 
 .topBar {
@@ -48,7 +48,7 @@
   position: fixed;
   right: 0;
   top: 0;
-  z-index: 98;
+  z-index: 9;
 }
 
 .topBar .halfNav button {
