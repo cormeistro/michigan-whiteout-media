@@ -6,6 +6,9 @@
   .section-standard-padding {
     padding: 50px 25px;
   }
+  .section-tall-padding {
+    padding: 50px 25px;
+  }
 }
 
 /* LARGE SCREENS */
@@ -15,6 +18,9 @@
   }
   .section-standard-padding {
     padding: 100px;
+  }
+  .section-tall-padding {
+    padding: 200px 100px;
   }
 }
 
@@ -28,12 +34,13 @@ body {
 
 button {
   background: unset;
-  border: solid 3px transparent;
+  border: solid 4px transparent;
   border-radius: 4px;
   color: unset;
   cursor: pointer;
-  font-family: unset;
-  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
   padding: 10px 15px;
   transition: all 250ms;
 }
@@ -44,10 +51,12 @@ button {
 
 .button-outline-red:hover {
   background-color: var(--red);
+  color: var(--gray-bright);
 }
 
 .button-solid-red {
   background: var(--red);
+  color: var(--gray-bright);
   filter: saturate(0.8);
 }
 
@@ -58,10 +67,6 @@ button {
 .icon {
   align-items: center;
   display: flex;
-}
-
-.section-tall-padding {
-  padding: 200px 100px;
 }
 
 .topBar nav a {

@@ -1,6 +1,6 @@
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import styles from "./TopBar.module.css";
-import Logo from "./assets/MWM.svg";
+import Logo from "./assets/MWMv2.svg";
 import { useState } from "react";
 
 interface Props {

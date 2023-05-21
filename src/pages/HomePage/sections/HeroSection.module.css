@@ -4,7 +4,7 @@
     flex-direction: column;
     flex-flow: column-reverse;
   }
-  .left h1 {
+  .heroSection h1 {
     line-height: 0.85em;
   }
   .slogan {
@@ -17,7 +17,7 @@
   .heroSection {
     flex-direction: column;
   }
-  .left h1 {
+  .heroSection h1 {
     line-height: 0.85em;
   }
   .slogan {
@@ -27,39 +27,45 @@
 
 /* BIG SCREENS */
 @media screen and (min-width: 1600px) {
-  .left {
+  .heroSection {
     min-width: 800px;
   }
 }
 
 .heroSection {
-  align-items: center;
-  display: flex;
-  gap: 50px;
-}
-
-.left {
+  background: linear-gradient(
+      to bottom,
+      rgba(238, 238, 238, 0.6),
+      rgba(238, 238, 238, 0.7) 25% 75%,
+      rgba(238, 238, 238, 0.6)
+    ),
+    url("../assets/background.jpg");
+  background-size: cover;
+  background-position: top center;
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
 
-.left h1 {
+.heroSection h1 {
+  font-family: "Montserrat", sans-serif;
   font-size: 60px;
   font-weight: 900;
+  line-height: 0.15em;
 }
 
-.left h1 span {
+.heroSection h1 span {
   color: var(--red);
 }
 
-.left h2 {
+.heroSection h2 {
   font-size: 32px;
   font-weight: 700;
 }
 
-.left p {
-  max-width: 800px;
+.heroSection p {
+  max-width: 1000px;
+  font-weight: 700;
 }
 
 .right img {

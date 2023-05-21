@@ -29,13 +29,14 @@
 
 .topBar {
   align-items: center;
+  background: var(--gray-bright);
   display: flex;
   justify-content: space-between;
 }
 
 .topBar .halfNav {
   align-items: center;
-  background: rgba(247, 74, 74, 0.5);
+  background: rgba(238, 238, 238, 0.5);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   bottom: 0;
