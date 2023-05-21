@@ -1,5 +1,6 @@
 import styles from "./HomePage.module.css";
 import AreaSection from "./sections/AreaSection";
+import CameraSection from "./sections/CameraSection";
 import CompareSection from "./sections/CompareSection";
 import HeroSection from "./sections/HeroSection";
 
@@ -13,6 +14,7 @@ const HomePage = ({ showContact }: Props) => {
       <HeroSection showContact={showContact} />
       <AreaSection />
       <CompareSection />
+      <CameraSection />
     </div>
   );
 };

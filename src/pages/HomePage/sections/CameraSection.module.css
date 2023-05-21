@@ -1,0 +1,70 @@
+@media screen and (max-width: 1000px) {
+  .topLeft {
+    display: none;
+  }
+}
+
+.cameraSection {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.cameraSection h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 0.9em;
+}
+
+.cameraSection h1 span {
+  color: var(--red);
+}
+
+.cameraSection h2 {
+  font-size: 36px;
+}
+
+.textWrapper {
+  background-color: rgba(238, 238, 238, 0.7);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 700px;
+  padding: 50px;
+  z-index: 20;
+}
+
+.topLeft {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.topLeft img {
+  height: 60%;
+}
+
+.topLeft,
+.topRight img {
+  z-index: 18;
+}
+
+.topRight {
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topRight img {
+  height: 65%;
+}
