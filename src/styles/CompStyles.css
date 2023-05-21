@@ -32,6 +32,10 @@ body {
   box-shadow: var(--gray-darkest) -10px 10px 25px;
 }
 
+.box-shadow-light {
+  box-shadow: var(--gray-faded) -10px 10px 25px;
+}
+
 button {
   background: unset;
   border: solid 4px transparent;

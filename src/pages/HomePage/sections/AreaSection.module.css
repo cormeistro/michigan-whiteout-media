@@ -1,8 +1,25 @@
+/* SMALL SCREENS */
+@media screen and (max-width: 1000px) {
+  .areaSection {
+    background: white;
+  }
+}
+
+/* LARGE SCREENS */
+@media screen and (min-width: 1000px) {
+  .areaSection {
+    background: linear-gradient(to right, white 40%, transparent 60%),
+      url("../assets/aoo.svg"), white;
+  }
+}
+
 .areaSection {
-  background: url("../assets/aoo.svg"), white;
   background-repeat: no-repeat;
   background-position: 75% center;
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .areaSection h1 {
@@ -15,4 +32,8 @@
 .areaSection h2 {
   font-size: 36px;
   font-weight: 400;
+}
+
+.areaSection p {
+  max-width: 500px;
 }
