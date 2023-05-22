@@ -23,9 +23,9 @@ const HeroSection = ({ showContact }: Props) => {
         creative content that help capture the emotions our clients feel.
       </p>
       <div className={styles.row}>
-        {/* <button className="button-solid-red" onClick={showContact}>
+        <button className="button-solid-red" onClick={showContact}>
           Contact Us
-        </button> */}
+        </button>
         <a
           href="http://facebook.com/michiganwhiteoutmedia"
           target="_blank"

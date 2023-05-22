@@ -63,6 +63,8 @@
 }
 
 .topBar nav {
+  /* TEMPORARY */
+  display: none;
   font-weight: 700;
 }
 

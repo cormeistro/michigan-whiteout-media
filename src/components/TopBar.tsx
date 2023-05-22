@@ -26,7 +26,7 @@ const TopBar = ({ showContact }: Props) => {
       <Link to="/">
         <img src={Logo} alt="MWM Logo" />
       </Link>
-      {/* <nav className={styles.fullNav}>
+      <nav className={styles.fullNav}>
         <NavItems handleContact={handleContact} closeMenu={closeMenu} />
       </nav>
       <div className={styles.mobileMenu}>
@@ -47,7 +47,7 @@ const TopBar = ({ showContact }: Props) => {
             <RiMenu3Line />
           </div>
         )}
-      </div> */}
+      </div>
     </section>
   );
 };
