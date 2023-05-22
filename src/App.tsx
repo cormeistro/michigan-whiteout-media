@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
 import TopBar from "./components/TopBar";
 import { HomePage, PhotographyPage } from "./pages";
 import { useState } from "react";
@@ -25,6 +26,7 @@ function App() {
           />
           <Route path="/photography" element={<PhotographyPage />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

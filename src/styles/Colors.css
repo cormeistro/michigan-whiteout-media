@@ -1,9 +1,11 @@
 :root {
   --gray-darkest: #222222;
   --gray-dark: #333333;
+  --gray-medium: #777777;
   --gray-faded: #cccccc;
   --gray-bright: #eeeeee;
 
+  --blue: #72a1bd;
   --red: #f74a4a;
 }
 

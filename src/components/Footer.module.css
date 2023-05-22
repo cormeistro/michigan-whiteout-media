@@ -1,0 +1,21 @@
+.footer {
+  color: var(--gray-medium);
+  letter-spacing: 0em;
+  font-family: "Lato", sans-serif;
+}
+
+.footer a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.logo {
+  height: 50px;
+}
+
+.section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
