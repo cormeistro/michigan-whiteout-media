@@ -4,14 +4,16 @@
     display: none;
   }
   .mobileMenu {
-    display: flex;
+    /* display: flex; */
+    display: none;
   }
 }
 
 /* LARGE SCREENS */
 @media screen and (min-width: 1200px) {
   .fullNav {
-    display: flex;
+    /* display: flex; */
+    display: none;
   }
   .mobileMenu {
     display: none;
