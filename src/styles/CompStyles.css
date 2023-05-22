@@ -74,8 +74,15 @@ button {
 }
 
 .topBar nav a {
+  border-bottom: solid 3px transparent;
   color: unset;
+  padding-bottom: 3px;
   text-decoration: unset;
+  transform: translateY(4px);
+}
+
+.topBar nav .active {
+  border-bottom-color: var(--red);
 }
 
 .topBar nav a:hover {

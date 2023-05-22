@@ -14,7 +14,7 @@ const CameraSection = () => {
       <div className={styles.textWrapper}>
         <div className={styles.header}>
           <h1>
-            Using <span>Quality</span> Equipment
+            Only <span>Quality</span> Equipment
           </h1>
           <h2>We use the best tools for the job</h2>
         </div>
@@ -23,11 +23,11 @@ const CameraSection = () => {
           alongide the sharpest and brightest glass, we capture images with an
           accuracy that has you wanting for more.
         </p>
-        <h3>We Edit Too</h3>
+        <h3>Never too much</h3>
         <p>
-          Using Adobe Photoshop combined with Serif's Affinity Photo, we have
-          the skills to touch up blemishes, remove unwanted backgrounds, and
-          correct issues with any image's composition.
+          We utilize natural light and artificial intelligence to capture and
+          edit photos that will require minimal setup for on-site photos and
+          won't get in the way.
         </p>
       </div>
     </section>
