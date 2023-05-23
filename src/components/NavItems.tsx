@@ -8,10 +8,13 @@ interface Props {
 const NavItems = ({ handleContact, closeMenu }: Props) => {
   return (
     <>
+      <NavLink onClick={closeMenu} to="/">
+        Home
+      </NavLink>
       <NavLink onClick={closeMenu} to="/photography">
         Photography
       </NavLink>
-      <NavLink onClick={closeMenu} to="/videography">
+      {/* <NavLink onClick={closeMenu} to="/videography">
         Videography
       </NavLink>
       <NavLink onClick={closeMenu} to="/advertising">
@@ -22,7 +25,7 @@ const NavItems = ({ handleContact, closeMenu }: Props) => {
       </NavLink>
       <NavLink onClick={closeMenu} to="about">
         About
-      </NavLink>
+      </NavLink> */}
       <button className="button-outline-red" onClick={handleContact}>
         Contact Us
       </button>

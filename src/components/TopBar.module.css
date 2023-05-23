@@ -4,16 +4,14 @@
     display: none;
   }
   .mobileMenu {
-    /* display: flex; */
-    display: none;
+    display: flex;
   }
 }
 
 /* LARGE SCREENS */
 @media screen and (min-width: 1200px) {
   .fullNav {
-    /* display: flex; */
-    display: none;
+    display: flex;
   }
   .mobileMenu {
     display: none;
@@ -65,8 +63,6 @@
 }
 
 .topBar nav {
-  /* TEMPORARY */
-  display: none;
   font-weight: 700;
 }
 
