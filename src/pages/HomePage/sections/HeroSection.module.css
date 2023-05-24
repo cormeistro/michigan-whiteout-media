@@ -88,7 +88,3 @@
 .row a:hover {
   color: var(--red);
 }
-
-.row button {
-  display: none;
-}

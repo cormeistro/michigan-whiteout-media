@@ -1,25 +1,3 @@
-/* SMALL SCREENS */
-@media screen and (max-width: 1200px) {
-  .fullNav {
-    display: none;
-  }
-  .mobileMenu {
-    /* display: flex; */
-    display: none;
-  }
-}
-
-/* LARGE SCREENS */
-@media screen and (min-width: 1200px) {
-  .fullNav {
-    /* display: flex; */
-    display: none;
-  }
-  .mobileMenu {
-    display: none;
-  }
-}
-
 .icon {
   cursor: pointer;
   font-size: 50px;
@@ -65,8 +43,6 @@
 }
 
 .topBar nav {
-  /* TEMPORARY */
-  display: none;
   font-weight: 700;
 }
 

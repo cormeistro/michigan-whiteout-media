@@ -13,10 +13,30 @@ const ContactForm = ({ hideContact }: Props) => {
       </div>
       <div className={styles.wrapper}>
         <h1>Let's Connect</h1>
-        <form>
-          <input id="contact-name" type="text" placeholder="Your Name" />
-          <input id="contact-email" type="email" placeholder="Your Email" />
-          <textarea id="contact-message" placeholder="Your Message" />
+        <form
+          action="https://formsubmit.co/info@michiganwhiteout.com"
+          method="POST"
+        >
+          <input
+            id="contact-name"
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            id="contact-email"
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+          <textarea
+            id="contact-message"
+            name="message"
+            placeholder="Your Message"
+            required
+          />
           <button className="button-solid-red" type="submit">
             Send Message
           </button>
