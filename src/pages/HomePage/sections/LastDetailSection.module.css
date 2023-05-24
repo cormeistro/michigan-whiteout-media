@@ -1,49 +1,51 @@
 /* SMALL SCREENS */
 @media screen and (max-width: 1000px) {
-  .heroSection h1 {
+  .lastDetailSection h1 {
     font-size: 42px;
   }
-  .heroSection h2 {
+  .lastDetailSection h2 {
     font-size: 30px;
   }
 }
 
 /* LARGE SCREENS */
 @media screen and (min-width: 1000px) {
-  .heroSection {
+  .lastDetailSection {
     text-align: center;
   }
-  .heroSection h1 {
+  .lastDetailSection h1 {
     font-size: 60px;
     line-height: 0.85em;
   }
-  .heroSection h2 {
+  .lastDetailSection h2 {
     font-size: 50px;
   }
 }
 
-.heroSection {
+.lastDetailSection {
   background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.4)
     ),
-    url("../assets/Header.jpg");
+    url("../assets/BaseSlide.jpg");
   background-size: cover;
   background-position: center 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
-.heroSection h1,
-.heroSection h2 {
+.lastDetailSection {
   color: white;
 }
 
-.heroSection h1 {
+.lastDetailSection h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
 }
 
-.heroSection h2 span {
+.lastDetailSection h2 span {
   color: var(--red);
 }

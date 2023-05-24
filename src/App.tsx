@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import TopBar from "./components/TopBar";
-import { HomePage, PhotographyPage } from "./pages";
+import { HomePage } from "./pages";
 import { useState } from "react";
 import "./styles/CompStyles.css";
 import "./styles/Colors.css";
@@ -24,7 +24,6 @@ function App() {
             path="/"
             element={<HomePage showContact={() => setContactVisible(true)} />}
           />
-          <Route path="/photography" element={<PhotographyPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
