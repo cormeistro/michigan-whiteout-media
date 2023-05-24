@@ -1,4 +1,3 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import TopBar from "./components/TopBar";
@@ -14,19 +13,12 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
-        {contactVisible && (
-          <ContactForm hideContact={() => setContactVisible(false)} />
-        )}
-        <TopBar showContact={() => setContactVisible(true)} />
-        <Routes>
-          <Route
-            path="/"
-            element={<HomePage showContact={() => setContactVisible(true)} />}
-          />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+      {contactVisible && (
+        <ContactForm hideContact={() => setContactVisible(false)} />
+      )}
+      <TopBar showContact={() => setContactVisible(true)} />
+      <HomePage showContact={() => setContactVisible(true)} />
+      <Footer />
     </div>
   );
 }
