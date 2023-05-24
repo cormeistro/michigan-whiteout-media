@@ -14,7 +14,7 @@ const ContactForm = ({ hideContact }: Props) => {
       <div className={styles.wrapper}>
         <h1>Let's Connect</h1>
         <form
-          action="https://formsubmit.co/info@michiganwhiteout.com"
+          action="https://formsubmit.co/a415d22687935ee5cf9ce6ab0de9e757"
           method="POST"
         >
           <input
