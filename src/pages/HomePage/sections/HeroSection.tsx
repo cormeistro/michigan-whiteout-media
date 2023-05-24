@@ -12,7 +12,7 @@ const HeroSection = ({ showContact }: Props) => {
         <h1>
           Michigan <span>Whiteout</span> Media
         </h1>
-        <h2>West-Michigan Premiere Media</h2>
+        <h2>West-Michigan Premier Media</h2>
       </div>
       <p>
         Sports + Corporate Photography | Web Development & Design | Videography
