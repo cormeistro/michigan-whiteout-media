@@ -76,7 +76,7 @@ button {
 .stick-to-top {
   position: sticky;
   top: 0;
-  z-index: 99;
+  z-index: 2;
 }
 
 .topBar nav a {

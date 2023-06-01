@@ -1,0 +1,26 @@
+.summerPhotosSection {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.4) 30% 70%,
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../assets//summerphotos.png");
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+.summerPhotosSection h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 72px;
+}
+
+.summerPhotosSection h2 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.summerPhotosSection button {
+  margin: 25px 0;
+}
