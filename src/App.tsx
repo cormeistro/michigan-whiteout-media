@@ -16,7 +16,9 @@ function App() {
       {contactVisible && (
         <ContactForm hideContact={() => setContactVisible(false)} />
       )}
-      <TopBar showContact={() => setContactVisible(true)} />
+      <div className="stick-to-top">
+        <TopBar showContact={() => setContactVisible(true)} />
+      </div>
       <HomePage showContact={() => setContactVisible(true)} />
       <Footer />
     </div>
