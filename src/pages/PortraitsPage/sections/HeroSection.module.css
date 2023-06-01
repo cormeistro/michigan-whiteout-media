@@ -1,0 +1,54 @@
+/* SMALL SCREENS */
+@media screen and (max-width: 1000px) {
+  .heroSection {
+    justify-content: center;
+  }
+}
+
+/* BIG SCREENS */
+@media screen and (min-width: 1000px) {
+  .heroSection {
+    justify-content: right;
+  }
+  .wrapper {
+    margin-right: 100px;
+  }
+}
+
+.heroSection {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.4) 40% 60%,
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../assets/header-banner.png");
+  background-position: right 10%;
+  background-size: cover;
+  color: white;
+  display: flex;
+}
+
+.heroSection h1 {
+  font-size: 50px;
+}
+
+.heroSection h2 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.heroSection p {
+  max-width: 600px;
+}
+
+.wrapper {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 4px;
+  border: solid 5px var(--red);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px;
+}

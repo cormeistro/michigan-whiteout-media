@@ -68,6 +68,10 @@ button {
   filter: saturate(1);
 }
 
+.h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
 .icon {
   align-items: center;
   display: flex;
@@ -76,7 +80,7 @@ button {
 .stick-to-top {
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 50;
 }
 
 .topBar nav a {

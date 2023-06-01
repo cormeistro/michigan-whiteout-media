@@ -1,5 +1,6 @@
 import styles from "./TopBar.module.css";
 import Logo from "./assets/MWMv2.svg";
+import { Link, NavLink } from "react-router-dom";
 
 interface Props {
   showContact: () => void;
@@ -8,10 +9,11 @@ interface Props {
 const TopBar = ({ showContact }: Props) => {
   return (
     <section className={`topBar section-short-padding ${styles.topBar}`}>
-      <a href="/">
+      <Link to="/">
         <img src={Logo} alt="MWM Logo" />
-      </a>
+      </Link>
       <nav className={styles.navigation}>
+        <NavLink to="/portraits">Portraits</NavLink>
         <button className="button-outline-red" onClick={showContact}>
           Contact Us
         </button>
