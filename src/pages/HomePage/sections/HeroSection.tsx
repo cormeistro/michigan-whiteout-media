@@ -7,11 +7,13 @@ interface Props {
 
 const HeroSection = ({ showContact }: Props) => {
   return (
-    <section className={`section-tall-padding ${styles.heroSection}`}>
+    <section className={`section-very-tall-padding ${styles.heroSection}`}>
       <div className={styles.slogan}>
+        <h1>Michigan</h1>
         <h1>
-          Michigan <span>Whiteout</span> Media
+          <span>Whiteout</span>
         </h1>
+        <h1>Media</h1>
         <h2>West-Michigan Premier Media</h2>
       </div>
       <p>

@@ -9,6 +9,9 @@
   .section-tall-padding {
     padding: 50px 25px;
   }
+  .section-very-tall-padding {
+    padding: 100px 25px;
+  }
 }
 
 /* LARGE SCREENS */
@@ -21,6 +24,9 @@
   }
   .section-tall-padding {
     padding: 200px 100px;
+  }
+  .section-very-tall-padding {
+    padding: 300px 100px;
   }
 }
 
