@@ -9,9 +9,19 @@
 
 .topBar {
   align-items: center;
-  background: var(--gray-bright);
+  background: linear-gradient(
+    to right,
+    rgba(238, 238, 238, 1),
+    rgba(238, 238, 238, 0.7)
+  );
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
 }
 
 .topBar .halfNav {
